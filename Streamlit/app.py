@@ -13,7 +13,7 @@ train a Random Forest classifier, and let you download a CSV with predicted cust
 uploaded_file = st.file_uploader("Upload your CSV file", type=["csv"])
 
 # Load trained model
-rf_classifier = joblib.load("../Models/rf_segmenter.joblib")
+rf_classifier = joblib.load("./Models/rf_segmenter.joblib")
 
 def outlier_thresholds(dataframe, variable):
     quartile1 = dataframe[variable].quantile(0.01)

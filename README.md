@@ -112,7 +112,7 @@ streamlit run app.py
 
 **Author:** Aung Kyaw Win 
 
-**GitHub:** [yourusername](https://github.com/AungKyawWin20)
+**GitHub:** [AungKyawWin20](https://github.com/AungKyawWin20)
 
 ---
 
